@@ -1,35 +1,35 @@
 from setuptools import setup
 
 setup(
-    name="electrum-nevacoin-server",
+    name="electrum-netko-server",
     version="1.0",
-    scripts=['run_electrum_nevacoin_server.py','electrum-nevacoin-server'],
+    scripts=['run_electrum_netko_server.py','electrum-netko-server'],
     install_requires=['plyvel','jsonrpclib', 'irc>=11'],
     package_dir={
-        'electrumnevacoinserver':'src'
+        'electrumnetkoserver':'src'
         },
     py_modules=[
-        'electrumnevacoinserver.__init__',
-        'electrumnevacoinserver.utils',
-        'electrumnevacoinserver.storage',
-        'electrumnevacoinserver.deserialize',
-        'electrumnevacoinserver.networks',
-        'electrumnevacoinserver.blockchain_processor',
-        'electrumnevacoinserver.server_processor',
-        'electrumnevacoinserver.processor',
-        'electrumnevacoinserver.version',
-        'electrumnevacoinserver.ircthread',
-        'electrumnevacoinserver.stratum_tcp',
-        'electrumnevacoinserver.stratum_http'
+        'electrumnetkoserver.__init__',
+        'electrumnetkoserver.utils',
+        'electrumnetkoserver.storage',
+        'electrumnetkoserver.deserialize',
+        'electrumnetkoserver.networks',
+        'electrumnetkoserver.blockchain_processor',
+        'electrumnetkoserver.server_processor',
+        'electrumnetkoserver.processor',
+        'electrumnetkoserver.version',
+        'electrumnetkoserver.ircthread',
+        'electrumnetkoserver.stratum_tcp',
+        'electrumnetkoserver.stratum_http'
     ],
-    description="nevacoin Electrum Server",
+    description="netko Electrum Server",
     author="Thomas Voegtlin",
     author_email="thomasv1@gmx.deg",
-    maintainer="nevacoin",
-    maintainer_email="support@nevacoin.org",
+    maintainer="netko",
+    maintainer_email="support@netko.org",
     license="GNU Affero GPLv3",
-    url="https://github.com/nevacoin/electrum-nevacoin-server/",
-    long_description="""Server for the Electrum Lightweight nevacoin Wallet"""
+    url="https://github.com/netko/electrum-netko-server/",
+    long_description="""Server for the Electrum Lightweight netko Wallet"""
 )
 
 

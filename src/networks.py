@@ -1,14 +1,14 @@
 # Main network and testnet3 definitions
 
 params = {
-    'nevacoin_main': {
+    'netko_main': {
         'pubkey_address': 53,
         'script_address': 5,
-        'genesis_hash': '0000067865dd821b9f8b2dcdfb367c9d1344d3335fa6fc6d7940b026b88169a6'
+        'genesis_hash': '00000b1677bc31fdf9d92f0781896022289464b4a31a3576a486390b86ace531'
     },
-    'nevacoin_test': {
+    'netko_test': {
         'pubkey_address': 111,
         'script_address': 196,
-        'genesis_hash': '0x005a03c21a8fd3cec753cd5d8bcb0b8b18071ee65f8c77af13e671c1bce771f4'
+        'genesis_hash': '0000397cab3008f491ad1a7428225fd0451f86b1ee46fb728ec16fc92cc7a47d'
     }
 }

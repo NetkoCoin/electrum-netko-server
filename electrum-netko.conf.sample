@@ -5,19 +5,19 @@ username =
 host = 0.0.0.0
 # ports
 electrum_rpc_port = 8002
-stratum_tcp_port = 5096
+stratum_tcp_port = 5099
 #stratum_tcp_ssl_port = 50002
 #report_host =
 #report_stratum_tcp_port = 50001
 #report_stratum_tcp_ssl_port = 50002
 password = secret
 banner = Welcome to Electrum!
-banner_file = /etc/electrum-nevacoin.banner
+banner_file = /etc/electrum-netko.banner
 irc = yes
-irc_nick = nevacoin
-#ssl_certfile = /path/to/electrum-nevacoin-server.crt
-#ssl_keyfile = /path/to/electrum-nevacoin-server.key
-logfile = /var/log/electrum-nevacoin.log
+irc_nick = netko
+#ssl_certfile = /path/to/electrum-netko-server.crt
+#ssl_keyfile = /path/to/electrum-netko-server.key
+logfile = /var/log/electrum-netko.log
 donation_address =
 
 # default backend is leveldb (pruning server)
@@ -29,9 +29,9 @@ path =
 # for each address, history will be pruned if it is longer than this limit
 pruning_limit = 1000
 
-[nevacoind]
-nevacoind_host = localhost
-nevacoind_port = 3791
-# user and password from nevacoin.conf
-nevacoind_user =
-nevacoind_password =
+[netkod]
+netkod_host = localhost
+netkod_port = 25960
+# user and password from netko.conf
+netkod_user =
+netkod_password =
